@@ -1,0 +1,38 @@
+<html><head><title>Epydoc Redirect Page</title>
+<meta http-equiv="cache-control" content="no-cache" />
+<meta http-equiv="expires" content="0" />
+<meta http-equiv="pragma" content="no-cache" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+<!--
+var pages = ["pygraph.algorithms.heuristics.Euclidean.euclidean-c", "pygraph.classes.Exceptions.InvalidGraphType-c", "pygraph.classes.Exceptions.NodeUnreachable-c", "pygraph.algorithms.filters.Radius.radius-c", "pygraph.algorithms.heuristics.Euclidean-m", "pygraph.algorithms.heuristics.Chow.chow-c", "pygraph.algorithms.utils.priority_queue-c", "pygraph.classes.Exceptions.GraphError-c", "pygraph.classes.Hypergraph.hypergraph-c", "pygraph.algorithms.filters.Find.find-c", "pygraph.algorithms.filters.Null.null-c", "pygraph.algorithms.heuristics.Chow-m", "pygraph.algorithms.filters.Radius-m", "pygraph.algorithms.utils.HeapItem-c", "pygraph.algorithms.accessibility-m", "pygraph.algorithms.filters.Find-m", "pygraph.algorithms.filters.Null-m", "pygraph.classes.Digraph.digraph-c", "pygraph.algorithms.generators-m", "pygraph.algorithms.heuristics-m", "pygraph.algorithms.searching-m", "pygraph.algorithms.traversal-m", "pygraph.algorithms.critical-m", "pygraph.classes.Graph.graph-c", "pygraph.algorithms.filters-m", "pygraph.algorithms.sorting-m", "pygraph.classes.Exceptions-m", "pygraph.classes.Hypergraph-m", "pygraph.algorithms.cycles-m", "pygraph.algorithms.minmax-m", "pygraph.algorithms.utils-m", "pygraph.readwrite.markup-m", "pygraph.classes.Digraph-m", "pygraph.classes.Graph-m", "pygraph.readwrite.dot-m", "pygraph.algorithms-m", "pygraph.readwrite-m", "pygraph.classes-m", "pygraph-m"];
+var dottedName = get_anchor();
+if (dottedName) {
+    var target = redirect_url(dottedName);
+    if (target) window.location.replace(target);
+}
+// -->
+</script>
+
+<h3>Epydoc Auto-redirect page</h3>
+
+<p>When javascript is enabled, this page will redirect URLs of
+the form <tt>redirect.html#<i>dotted.name</i></tt> to the
+documentation for the object with the given fully-qualified
+dotted name.</p>
+<p><a id="message"> &nbsp; </a></p>
+
+<script type="text/javascript">
+<!--
+if (dottedName) {
+    var msg = document.getElementById("message");
+    msg.innerHTML = "No documentation found for <tt>"+
+                    dottedName+"</tt>";
+}
+// -->
+</script>
+
+</body>
+</html>

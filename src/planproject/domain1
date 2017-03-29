@@ -1,0 +1,6 @@
+( Drive ( car1 , gachibowli , secunderabad ) 210 270 90 )
+( Drive ( car2 , gachibowli , bangalore ) 420 480 240 )
+( Drive ( car2 , gachibowli , shamshabad ) 91 150 50 )
+( Train ( secunderabad , bangalore ) 150 210 200 )
+( Fly ( shamshabad , bangalore ) 90 150 1000 )
+( Drive ( car1 , gachibowli , shamshabad )  60 120 70 )

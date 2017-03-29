@@ -1,0 +1,6 @@
+(  Drive ( car1 , tuscon , losvegas  )  1.5 )
+(  Drive (  car1  , tuscon , losangels ) 10 )
+( Drive ( car3 , tuscon , phonex ) 0.5 )
+( Train ( losvegas , losangels )  0.5  )
+( Fly ( phonex , losangels )  0.5 )
+( Drive (  car2 , tuscon , phonex )  1.5 )

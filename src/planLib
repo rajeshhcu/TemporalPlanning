@@ -1,0 +1,5 @@
+(  Drive ( X , Y , Z ) : at ( Y ) , at ( X , Y ) <- + at ( Z ) , - at ( Y ) , - at ( X , Y ) , + at ( X , Z  )  )
+(  Train ( X , Y  ) : at ( X )   <- + at ( Y ) , - at ( X ) )
+(  Fly ( X , Y  ) : at ( X )   <- + at ( Y ) , - at ( X ) )
+( at (  X )  :  at ( Y ) , at ( Z , Y ) <-  Drive ( Z , Y , X ) )
+( at (  X )  :  at ( Y ) , at ( Z , Y ) <-  Drive ( Z , Y , P  ) , Fly ( P , X )  )

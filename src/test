@@ -1,0 +1,1 @@
+[[[['Drive', 'car1', 'gachibowli', 'shamshabad'], [['at', 'gachibowli'], ['at', 'car1', 'gachibowli']], [['+', 'at', 'shamshabad'], ['-', 'at', 'gachibowli'], ['-', 'at', 'car1', 'gachibowli'], ['+', 'at', 'car1', 'shamshabad']]]], [['Fly', 'shamshabad', 'bangalore'], [['at', 'shamshabad']], [['+', 'at', 'bangalore'], ['-', 'at', 'shamshabad']]], 150.0]
